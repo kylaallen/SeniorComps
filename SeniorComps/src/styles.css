@@ -1,0 +1,235 @@
+.whole-page {
+    overflow-x: hidden !important;
+}
+/* headers on side pages */
+h1 {
+    background-color: #80b5ff;  
+    justify-content: center !important;
+    display: flex;
+    align-items: center;
+    z-index: 3;
+    height: 50px;
+    top: 20%;
+    font-family: 'Helvetica', Helvetica;
+    font-weight: bold !important;
+    font-size: 150% !important;
+    color: white;
+} 
+/* any text */
+.text {
+    font-family: 'Helvetica', Helvetica;
+    font-weight: bold !important;
+    font-size: 150%;
+    font-style: italic;
+    padding: 2%;
+}
+.main-header {
+    background-color: white;
+}
+.readreviews {
+    position: absolute;
+    right: 2%;
+    top: 1.5%;
+    display: inline !important;
+    margin-left: 5% !important;
+}
+.rateclass {
+    position: absolute;
+    right: 10%;
+    top: 1.5%;
+    display: inline !important;
+    margin-left: 5% !important;
+}
+/* home page header2 */
+.home-pageh2 {
+    background-color: #80b5ff;  
+    justify-content: center;
+    z-index: 3;
+    align-items: center;
+}
+/* home page element container */
+.element-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* home page element */
+.home-page-element {
+    border-color: #80b5ff;  
+    font-family: "Helvetica", Helvetica;
+    padding: 4%;
+    font-size: 125%;
+    font-weight: bold;
+    border-style: solid;
+    border-width: 3px;
+    margin: 2%;
+}
+
+/* mini logo on side page in header */
+.small-logo {
+	margin: .3% !important;
+    right: 1%;
+    position: absolute;
+}
+
+/* main logo on home page in header */
+.logo {
+    text-align: right !important;
+    width: 60%;
+    height: 500px;
+    top: 50%;
+    display: flex;
+}
+
+/* home button on side page headers */
+.back-home {
+    display:inline !important;
+	margin: .3%!important;
+    left: 0;
+    justify-content: space-between !important;
+    right: 10%;
+    top: .5%;
+    position: absolute; 
+}
+
+/* search button on side page headers */
+.search-header {
+    display:inline !important;
+	margin: .3%!important;
+    justify-content: space-between !important;
+    left: 4.2%;
+    top: .5%;
+    position: absolute;
+
+}
+
+
+/* all buttons */
+.btn {
+    font-family: "Helvetica", Helvetica !important;
+    font-weight: bold !important;
+    display:inline !important;
+    justify-content: flex-start !important;
+    background-color:  white !important; 
+    color: #ff9500 !important;
+    border-radius: 60px !important;
+    border-color:#ff9500 !important;
+    padding-right: 2%;
+}
+
+/* about the site on home page */
+.about-site {
+    font-family: "Helvetica", Helvetica;
+    font-weight: bold;
+    font-size: 20px;
+    justify-content: right !important;
+    padding: 15px !important;
+    text-align: left;
+    width: 35%;
+    display: block;
+    right: 0%;
+    color: white;
+    position: absolute;
+    top: 17%;
+}
+
+/* image on home page */
+.images {
+    display: flex;
+    align-items: center; 
+    height: 60% !important; 
+    top: 120%;
+    position: absolute;
+    opacity: .5;
+    object-fit: cover !important;
+    width: 200% !important;
+    padding: 0% !important;
+}
+
+/* search bar on class reviews */
+.SearchBar, .SearchBarForRating {
+    font-family: "Helvetica", Helvetica;
+    font-size: 22px;
+    justify-content: center !important;
+    z-index: 2;
+    margin: 0;
+    padding: 0%;
+    position: absolute;
+    top: 30%;
+    left: 5% ;
+}
+.bar, .search-bar-table {
+    width: 500% !important;
+}
+
+.form-title {
+    font-family: 'Helvetica', Helvetica;
+    font-weight: bold;
+    padding-left: .5%;
+    font-size: 20px;
+}
+
+.rate-form {
+    padding-left: 10%; 
+    padding-right: 10%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    border-style: solid;
+    margin-right: 12%;
+    margin-left: 12%;
+    border-radius: 15px;
+    border-color: white;
+    background-color:white;
+}
+
+.rate-output {
+    background-color: #cee3ff;
+}
+
+.reviewoutput-container {
+    overflow-x: hidden;
+  }
+
+.pie-chart {
+    display: flex;
+ transform: translateX(-25%);
+}
+
+.pie-chart-container {
+    width: 48%; /* Each pie chart container takes up half the row */
+    padding: 0 0% 0 0%; /* Adjust padding as needed for spacing */
+    box-sizing: border-box; /* Include padding in the width calculation */
+    flex: 1; 
+    
+
+}
+.pie-chart-1 {
+    display: flex;
+    transform: translateX(-25%);
+    padding-top: 18%;
+    text-align: left;
+}
+
+.chart-border {
+    border-style: solid;
+    border-width: 3px;
+}
+
+.single-review {
+    max-width: 95%; /* Review container takes up the full width */
+    margin: 2%;
+    width: 300%;
+    padding: 1%;
+
+
+}
+
+.single {
+    padding: 1%;
+    background-color: #f6faff;
+}
+.professor-title {
+    font-size: 50px !important; 
+ } 
+

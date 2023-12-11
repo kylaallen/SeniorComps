@@ -1,0 +1,54 @@
+ClassItem,ChartId,Label,Value,Professor,ChartType
+Junior Seminar,1,Presentations,10,Justin Li,Grade Make-Up
+Junior Seminar,1,Tutorial,10,Justin Li,Grade Make-Up
+Junior Seminar,1,Final Paper,80,Justin Li,Grade Make-Up
+Junior Seminar,2,Student-Led Presentations,50,Justin Li,Teaching Style
+Junior Seminar,2,Lecture,10,Justin Li,Teaching Style
+Junior Seminar,2,Work Period,40,Justin Li,Teaching Style
+Junior Seminar,3,30,Paper,Celia Chen,Grade Make-Up
+Junior Seminar,3,Presentations,10,Justin Li,Grade Make-Up
+Junior Seminar,3,Tutorial,20,Justin Li,Grade Make-Up
+Junior Seminar,3,Final Paper,30,Celia Chen,Grade Make-Up
+Junior Seminar,4,Student-Led Presentations,40,Celia Chen,Teaching Style
+Junior Seminar,4,Lecture,20,Celia Chen,Teaching Style
+Junior Seminar,4,Work Period,40,Celia Chen,Teaching Style
+Junior Seminar,8,Click Here to Review,100,"WANT TO WRITE A REVIEW?","Click Below"
+Mathematical Foundations of Computer Science,1,Homework,30,Hsing-Hau Chen,Grade Make-Up
+Mathematical Foundations of Computer Science,1,Tests,60,Hsing-Hau Chen,Grade Make-Up
+Mathematical Foundations of Computer Science,1,Project,10,Hsing-Hau Chen,Grade Make-Up
+Mathematical Foundations of Computer Science,2,Lecture,80,Hsing-Hau Chen,Teaching Style
+Mathematical Foundations of Computer Science,2,Other,20,Hsing-Hau Chen,Teaching Style
+Mathematical Foundations of Computer Science,3,Homework,30,Kathryn Leonard,Grade Make-Up
+Mathematical Foundations of Computer Science,3,Tests,40,Kathryn Leonard,Grade Make-Up
+Mathematical Foundations of Computer Science,3,Project,30,Kathryn Leonard,Grade Make-Up
+Mathematical Foundations of Computer Science,4,Lecture,50,Kathryn Leonard,Teaching Style
+Mathematical Foundations of Computer Science,4,Other,80,Kathryn Leonard,Teaching Style
+Mathematical Foundations of Computer Science,8,Click Here to Review,100,"WANT TO WRITE A REVIEW?","Click Below"
+Data Structures,1,Group/Solo Work,80,Irina Rabkina,Teaching Style
+Data Structures,1,Lecture,20,Irina Rabkina,Teaching Style
+Data Structures,2,Homework,30,Irina Rabkina,Grade Make-Up
+Data Structures,2,Project,70,Irina Rabkina,Grade Make-Up
+Data Structures,3,Group/Solo Work,80,Benyamin Ahmadnia,Teaching Style
+Data Structures,3,Lecture,20,Benyamin Ahmadnia,Teaching Style
+Data Structures,4,Homework,10,Benyamin Ahmadnia,Grade Make-Up
+Data Structures,4,Project,90,Benyamin Ahmadnia,Grade Make-Up
+Data Structures,8,Click Here to Review,100,"WANT TO WRITE A REVIEW?","Click Below"
+Fundamentals of Computer Science,1,Project,70,Hsing-Hau Chen,Grade Make-Up
+Fundamentals of Computer Science,1,Homework,30,Hsing-Hau Chen,Grade Make-Up
+Fundamentals of Computer Science,1,Lab,10,Hsing-Hau Chen,Grade Make-Up
+Fundamentals of Computer Science,2,Lecture,90,Hsing-Hau Chen,Teaching Style
+Fundamentals of Computer Science,2,Group work,10,Hsing-Hau Chen,Teaching Style
+Fundamentals of Computer Science,3,Project,70,Justin Li,Grade Make-Up
+Fundamentals of Computer Science,3,Homework,20,Justin Li,Grade Make-Up
+Fundamentals of Computer Science,3,Quizzes,10,Justin Li,Grade Make-Up
+Fundamentals of Computer Science,3,Lab,10,Justin Li,Grade Make-Up
+Fundamentals of Computer Science,4,Lecture,30,Justin Li,Teaching Style
+Fundamentals of Computer Science,4,Group Work,70,Justin Li,Teaching Style
+Fundamentals of Computer Science,5,Project,70,Kathryn Leonard,Grade Make-Up
+Fundamentals of Computer Science,5,Homework,20,Kathryn Leonard,Grade Make-Up
+Fundamentals of Computer Science,5,Quizzes,10,Kathryn Leonard,Grade Make-Up
+Fundamentals of Computer Science,5,Lab,10,Kathryn Leonard,Grade Make-Up
+Fundamentals of Computer Science,6,Lecture,30,Kathryn Leonard,Teaching Style
+Fundamentals of Computer Science,6,Group Work,70,Kathryn Leonard,Teaching Style
+
+Fundamentals of Computer Science,8,Click Here to Review,100,"WANT TO WRITE A REVIEW?","Click Below"
