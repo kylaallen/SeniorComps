@@ -175,7 +175,7 @@ Overall, each interview lasted about 15 minutes, and allowed me to start the dev
 
 \subsubsection{Results and Implications}
 
-The interviews yielded insightful results. For instance, participants considered timing, class structure, and professor reviews in their decision-making process. The importance of these factors evolved over time and with the progression of the major. The findings lead to considerations for the development of an Oxy-specific feedback site, including features like student-written course descriptions and strategies to encourage students to rate and review their classes.
+The interviews led to insightful results. For instance, participants considered timing, class structure, and professor reviews in their decision-making process. In addition, the importance of these factors evolved over time and with the progression of the major. The findings lead to considerations for the development of an Oxy-specific feedback site, including features like student-written course descriptions and strategies to encourage students to rate and review their classes.
 
 %One student explained that, the further he gets into his major, the less he uses sites like ratemyprofessor. This is due to the options for classes become more limited as you are required to take certain classes for your major. In addition, the interviewee explained, the further one gets into their major, the more aware they are of the reputation of certain classes and professors, so the need for ratemyprofessor becomes obsolete.
 
@@ -205,24 +205,29 @@ Below is the first mock-up review I used for user testing. I also used more pape
 
 Some of the feedback I received after implementing the UCD tactics were that users needed more visual data to draw them towards the review. The participants liked the break up of the text into "Likes" and "Dislikes" as it separated a block of text into defined sections. In addition, some of the participants commented that the summary section was not useful, as they can just find that information on course counts, which every Occidental student uses. 
 
-After receiving the feedback given through the first round of user testing, I made many changes to my hand-drawn review. First, I brainstormed ways to add more visual components to my review. I looked at ratemyprofessor and other review sites to inform my decision to ultimately create pie charts that visually represented the grade make-up and teaching style of the professor attached to the review. In addition, I took out the summary section as I felt it was not relevant to the goal of my app. I also added an interactive feature where the user can check whether they like or dislike the specific review. Below is the second hand-drawn review for which I conducted user testing.
+After receiving the feedback given through the first round of user testing, I made many changes to my hand-drawn review. First, I brainstormed ways to add more visual components to my review. I looked at ratemyprofessor and other review sites to inform my decision to ultimately create pie charts that visually represented the grade make-up and teaching style of the professor attached to the review. In addition, I took out the summary section as I felt it was not relevant to the goal of my app. I also added an interactive feature where the user can check whether they like or dislike the specific review. I added this as a way for users to give feedback to the reviewers, and to other users, in order to identify which parts of the review users found helpful/agreed with, and which parts they found unhelpful/disagreed with. Below is the second hand-drawn review for which I conducted user testing.
 
 \includegraphics[scale=.25]{UT2}\\ \textbf{\footnotesize{Figure 2. 2nd Version of User Tested Hand-Drawn Review}}
 
-\subsubsection{User Testing with Reviews Made with Google Slides}
+Through the user testing conducted with the review above, I gathered that users engaged well with the pie charts and appreciated the way the data was structured. This is because the pie charts allowed users to see a visual synopsis of the data which allowed for a balance between reading information and interpreting graphs. Usually, in these types of reviews, it is important to have a balance between visual data and written data. In addition, I learned that users prefer more ratings at the top (i.e. difficulty out of 10, would you take again, etc...). Based on user feedback during testing, having multiple summary ratings at the top was seen as a more straightforward way to understand how the reviewer felt about the class. It eliminated the need for users to analyze the entire review to gauge the overall sentiment of the reviewer. Lastly, it was pointed out to me that I omitted the name of the professor in the review, which led to confusion amongst those who went through this round of user testing, however it should be noted that this was a personal error and should not reflect a purposeful change. Additional user feedback regarding this version will be mentioned in the sections below.\\
+
+
+{\centering \textbf{User Testing with Reviews Made with Google Slides} \par}\\
+
+
 After setting up the basic structure of my site, I created online mock-ups for the reviews. This allowed me to start creating fabricated reviews on the front-end of my sight. Below is an image of a section of the first version of the review I created using google slides. 
 
 \includegraphics[scale=.25]{UT3}\\ \textbf{\footnotesize{Figure 3. 3rd Version of User Tested Review Made on Google Slides}}\\
 
-In this review, I have included a like or dislike button in the form of a thumbs up/thumbs down which was suggested in user testing, as the dislike/like checkbox made the sections feel crowded. I felt that the appearance of a picture versus a checkbox with a description would be more user friendly and take up less space. Additionally, each section has its own set of pie charts for each professor. These pie charts were modeled after the pie charts in Figure 2.
+In this review, I have included a like or dislike button in the form of a thumbs up/thumbs down which was suggested in user testing, as the dislike/like checkbox made the sections feel crowded. Participants still felt like it was important to give the option for users to provide feedback, however some felt it could be done in a more succinct manner. I felt that the appearance of a picture versus a checkbox with a description would be more user friendly and take up less space. Additionally, each section has its own set of pie charts for each professor. These pie charts were modeled after the pie charts in Figure 2.
 
-A lot of the feedback I received during this round of user testing revolved around the pie charts. While people liked the content of the pie charts and were drawn to the way it was represented, users seemed confused by the repetitiveness of the pie charts as you scroll down and see multiple reviews by the same professor. 
+Much of the feedback I received during this round of user testing revolved around the pie charts. While people liked the content of the pie charts and were drawn to the way it was represented, users seemed confused by the repetitiveness of the pie charts as you scroll down and see multiple reviews by the same professor. 
 
 In addition, there was confusion regarding the thumbs up/thumbs down buttons, as they can come from anyone, so whether it was an individual agreeing with the review or thinking the review was helpful was unclear. Ultimately, I decided to limit the thumbs up/thumbs down to once at the bottom of each review, and left it up to the user to decide what the amount of likes/dislikes means to them.
 
 By restricting the voting to a single instance, the project aims to provide more accurate and meaningful signals to users about the perceived quality or usefulness of a review. This approach helps users make informed decisions by considering a unified assessment of the community's feedback, avoiding potential confusion from scattered and unclear reactions.
 
-Moreover, by leaving the interpretation of the number of likes or dislikes up to the individual user, the project embraces a user-centric philosophy. Users can ascribe their own meaning to the reactions, whether viewing it as a measure of agreement, helpfulness, or overall sentiment. This flexibility acknowledges the diverse ways in which users might engage with the site, ensuring that the platform accommodates a range of user perspectives and preferences. In the future, there could be more user testing to see if there are any other types of viewer feedback that could be more helpful to students. 
+Moreover, by leaving the interpretation of the number of likes or dislikes up to the individual user, the project embraces user-centered design \cite{mao2005}. Users can ascribe their own meaning to the reactions, whether viewing it as a measure of agreement, helpfulness, or overall sentiment. This flexibility acknowledges the diverse ways in which users might engage with the site, ensuring that the platform accommodates a range of user perspectives and preferences. In the future, there could be more user testing to see if there are any other types of viewer feedback that could be more helpful to students. 
 
 Participants in user testing also inquired about classes being taken for the major or not. The reasoning being that reviews rating a high level of difficulty might hold less weight coming from a non-major. Ultimately, I decided to include this in my final round of user testing. 
 
@@ -231,15 +236,16 @@ I decided to include the option for users to provide their name in the "By: (Aut
 
 \includegraphics[scale=.27]{UT4}\\ \textbf{\footnotesize{Figure 4. 4th Version of User Tested Review Made on Google Slides}}
 
-In this updated review, I moved the pie charts to the top of the page. This way, if students happen to be looking for a specific professor, they can see at the top all of the different professors within the review. In addition, this solution resolves the issue of the pie charts being repeated when their are multiple reviews for one professor. In order to create one set of pie charts for each professor, I can take the averages (minus any outliers) from each review and/or the average of the top (most liked) ~3 reviews. As of now, the pie charts are created using fake data, so they do not represent the real teaching styles and grade make-ups for the professors. 
+In this updated review, I moved the pie charts to the top of the page. This way, if students happen to be looking for a specific professor, they can see at the top all of the different professors within the review. In addition, this solution resolves the issue of the pie charts being repeated when their are multiple reviews for one professor. In order to create one set of pie charts for each professor, I can take the averages (minus any outliers) from each review and/or the average of the top (most liked) ~3 reviews. As of now, the pie charts are created using fake data, so they do not represent the real teaching styles and grade make-ups for the professors. \\
 
-{\centering \textbf{User Testing Stage 3--Actual Website}\par}
+
+{\centering \textbf{User Testing Stage 3--Actual Website}\par}\\
 
 
 \includegraphics[scale=.165]{UT5}\\ \textbf{\footnotesize{Figure 5. Pie Charts with S}}\\
 
 
-In the image above, participants in my user testing were confused regarding the repeated name of the professor within grading style. Ideally, I would put the professor's name centered in between the two pie charts, however, given the fact that the pie charts are all their own element, I struggled to figure out the label given the time constraints of the project. In the future, I hope to figure this out in order to create more clarity and decrease repetition \cite{noname08}. \\
+In the image above, participants in my user testing were confused regarding the repeated name of the professor within grading style. Ideally, I would put the professor's name centered in between the two pie charts, however, given the fact that the pie charts are all their own element, I struggled to figure out the label given the time constraints of the project. In the future, I hope to solve this issue in order to create more clarity and decrease repetition \cite{noname08}. \\
 
 
 
@@ -250,7 +256,7 @@ Ultimately I decided to stick with the pie charts as the only visual representat
 
 \subsubsection{Results and Discussion Regarding User Testing}
 
-While numerous feedback and alternative ideas for user testing were available, this section focuses on highlighting the most pertinent and significant concepts. Addressing every suggestion is impractical, and therefore, emphasis has been placed on those deemed most important for the enhancement and effectiveness of the user testing process. Overall, I recognize that it is essential to ensure that the chosen feedback adequately represent the range of feedback and ideas received during the testing process.
+While numerous feedback and alternative ideas for user testing were available, this section focuses on highlighting the most significant concepts. Addressing every suggestion is impractical, and therefore, emphasis has been placed on the ideas I felt were most important for the enhancement and effectiveness of the user testing process. Overall, I recognize that it is essential to ensure that the chosen feedback adequately represent the range of feedback and ideas received during the testing process.
 
 \subsection{Web App Development}
 The web app development side of my project occurred concurrently with the user testing and involved many stages: 
